@@ -1,13 +1,8 @@
-#include <iostream>
+#include "stdlib.h"
 
 class Libs
 {
-    private:
-
     public:
+    void printThings();
 
-    inline void printThings()
-    {
-        std::cout << "Stuff and things" << std::endl;
-    }
 };
